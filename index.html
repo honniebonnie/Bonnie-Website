@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contacts">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+    <section id="hero">
+    <h2>Hello, I'm <span class="name"> Honnie_Bonnie </span></h2>
+    <p> A Passionate Web Developer</p>
+    <button id="hireBtn">Hire Me</button>
+    </section>
+
+    <!-- ABOUT SECTION -->
+----------------      <section id="about">
+        <h2>About Me</h2>
+        <p>I am a frontend web developer who loves building clean and responsive websites. I enjoy working with Javascript, Python, React, Node.js and I am constantly improving my skills</p>
+      </section>
+
+      <!-- SKILLS SECTION -->
+        <section id="skills">
+        <h2>My Skills</h2>
+        <ul>
+          <li>HTML & CSS</li>
+          <li>Javascript</li>
+          <li>React.js</li>
+          <li>Node.js</li>
+        </ul>
+        </section>
+
+        <!-- PROJECT SECTION -->
+          <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-box">
+              <h3>Portfolio Website</h3>
+              <p>A beautiful responsive portfolio website built using HTML, CSS, and Javascript.</p>
+            </div>
+
+            <div class="project-box">
+              <h3>Form Validator</h3>
+              <p>A form validation project using DOM manipulation and Javascript.</p>
+            </div>
+          </section>
+          
+          <!-- CONTACT SECTION -->
+            <section id="contact">
+              <h2>Contact Me</h2>
+              <form id="contactForm">
+                <input type="text" id="contactName" placeholder="Your Name">
+                <input type="email" id="contactEmail" placeholder="Your Email">
+                <textarea id="message" placeholder="Your Message"></textarea>
+                <button type="submit">Send Message</button>
+              </form>
+
+              <p id="feedback"></p>
+            </section>
+
+            <script src="script.js"></script>
+</body>
+</html>
